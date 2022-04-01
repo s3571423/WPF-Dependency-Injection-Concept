@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Component\Component3\Models\" />
+    <Folder Include="Component\Component3\ViewModels\" />
+    <Folder Include="Component\Component3\Views\" />
+    <Folder Include="Component\Component4\Models\" />
+    <Folder Include="Component\Component4\ViewModels\" />
+    <Folder Include="Component\Component4\Views\" />
+  </ItemGroup>
+
+</Project>

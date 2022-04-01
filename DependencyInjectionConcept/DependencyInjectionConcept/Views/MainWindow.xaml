@@ -1,0 +1,16 @@
+﻿<Window x:Class="DependencyInjectionConcept.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:DependencyInjectionConcept.ViewModels"
+        d:DataContext="{d:DesignInstance viewModels:ApplicationViewModel, IsDesignTimeCreatable=False}"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="450" Width="800">
+
+    <Grid>
+        <StackPanel>
+            <Button Content="Open View Models" Command="{Binding OpenViewModelCommand}"/>
+        </StackPanel>
+    </Grid>
+</Window>
